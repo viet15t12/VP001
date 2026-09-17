@@ -1,0 +1,46 @@
+# Binaries cho các OS/kiến trúc khác nhau
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, được build bởi `go test -c`
+*.test
+
+# Output của go tool cover
+*.out
+
+# Thư mục dependencies (nếu dùng vendor)
+vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Biến môi trường / config nhạy cảm
+.env
+.env.local
+*.local.yaml
+*.local.yml
+
+# Build output
+/bin/
+/dist/
+/build/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Air (live reload cho Go) nếu có dùng
+tmp/
